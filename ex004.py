@@ -1,0 +1,13 @@
+random_value = input('Digite algo: ')
+
+print('É um numerico? : ', random_value.isnumeric())
+print('É uma letra alfabetica ou palavra? : ', random_value.isalpha())
+print('É lowercase? : ', random_value.islower())
+print('É uppercase? : ', random_value.isupper())
+print('É capitalizada? : ', random_value.istitle())
+print('É espaço? : ', random_value.isspace())
+print('É decimal? : ', random_value.isdecimal())
+print('É alfanumerico? : ', random_value.isalnum())
+print('É digito? : ', random_value.isdigit())
+print('É printable? : ', random_value.isprintable())
+print('É ASCII? : ', random_value.isascii())
