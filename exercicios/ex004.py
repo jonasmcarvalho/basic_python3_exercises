@@ -1,5 +1,7 @@
 random_value = input('Digite algo: ')
 
+print(type(random_value))
+
 print('É um numerico? : ', random_value.isnumeric())
 print('É uma letra alfabetica ou palavra? : ', random_value.isalpha())
 print('É lowercase? : ', random_value.islower())

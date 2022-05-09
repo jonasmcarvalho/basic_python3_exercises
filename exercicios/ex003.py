@@ -1,6 +1,6 @@
-n1 = int(input('Digite um valor numerico: '))
-n2 = int(input('Digite um valor numerico: '))
+number1 = int(input('Digite um valor numerico: '))
+number2 = int(input('Digite um valor numerico: '))
 
-soma = n1 + n2
+sumNumbers = number1 + number2
 
-print('A soma dos valores é: ', soma)
+print('A soma dos valores é: ', sumNumbers)

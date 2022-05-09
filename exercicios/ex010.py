@@ -1,6 +1,6 @@
 money = int(input('Digite um valor em dinheiro: '))
 
-dolar = 5.0087
+dolarValue = 5.0087
 
-print('Com o valor de {} reais, você consegue comprar {} dolares atualmente.'.format(
-    money, money / dolar))
+print('Com o valor de {:.2f} reais, você consegue comprar {:.2f} dolares atualmente.'.format(
+    money, money / dolarValue))
